@@ -8,7 +8,7 @@ function App() {
       <Navbarprincipal />
       <ItemListContainer >
         {
-          // lista de productos []
+          // lista de productos
         }
         
       </ItemListContainer>
