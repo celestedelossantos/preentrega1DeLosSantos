@@ -1,0 +1,13 @@
+
+.cart-container{
+    position: relative;
+}
+
+.numero {
+    position: absolute;
+    font-weight: 500;
+    font-size: 12px;
+    top: 2px;
+    left: 36px;
+
+}
