@@ -5,28 +5,32 @@
             "title": "Rascador Premiun",
             "description":"Excelente rascador, oportunidad unica con una excelente altura",
             "category": "Rascadores",
-            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_616925-MLA49698424653_042022-F.webp"
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_616925-MLA49698424653_042022-F.webp",
+            "price": 2500
         },
         {
             "id":2,
             "title": "Ropita de nenita",
             "description":"hermosa ropita para tu gatita chiquita",
             "category": "Michiropa",
-            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_619978-MLA47482187532_092021-F.webp"
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_619978-MLA47482187532_092021-F.webp",
+            "price": 5000
         },
         {
             "id":3,
             "title": "Juguete Raton",
             "description":"Ratita para que tu gatito no pare de jugar",
             "category": "Michitoys",
-            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_776505-MLA41372733829_042020-F.webp"
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_776505-MLA41372733829_042020-F.webp",
+            "price": 5000
         },
         {
             "id":4,
             "title": "Comida Basic",
             "description":"No parara de comer este alimento super balanceado",
             "category": "Michialimentos",
-            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_729789-MLA49546651664_042022-F.webp"
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_729789-MLA49546651664_042022-F.webp",
+            "price": 2500
         }
     ]
 }

@@ -9,7 +9,7 @@ const Home = () => {
         <ItemListContainer >
           {
             data.products.map( product =>{
-                return <CardContainer product={product}/>
+                return <CardContainer key={product.id} product={product}/>
             })
           }
           

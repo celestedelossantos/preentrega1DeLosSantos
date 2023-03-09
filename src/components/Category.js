@@ -16,7 +16,7 @@ const Category = () => {
     },[id])
 
     return (
-        <Container className="d-flex flex-column">
+        <Container className="d-flex justify-content-center flex-column">
             <h1 className="text-center">Categoria {id}</h1>
             <Container className="d-flex flex-wrap justify-content-center" >
 
