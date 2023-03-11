@@ -1,21 +1,34 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import '../styles/itemDetail.css'
+import AddItemButton from "./AddItemButton";
+import Description from "./Description";
 
-import data from '../data/products.json'
-
-const ItemDetail = () => {
-    const {id} = useParams();
-    const [state,setState]= useState(null);
-    
-    useEffect(()=>{
-        const item = data.products.find(product => product.id === Number(id))
-        setState(item);
-    },[id])
-    return (
-        <>
-            {state && <h2>{state.title}</h2>}
-        </>
-    )
-}
+const ItemDetail = ({ item }) => {
+  return (
+    <Container className="item-contianer p-4"> 
+      <Row>
+        <Col>
+          <Row>
+            <Col>
+              <Description>
+                <h3 className="mb-2">{item.title}</h3>
+                <span className="text my-4">{item.description}</span>
+                <h4 className="my-4">${item.price}</h4>
+              </Description>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <AddItemButton text="Agregar al carrito" item={item} />
+            </Col>
+          </Row>
+        </Col>
+        <Col>
+          <Image fluid src={item.image} />
+        </Col>
+      </Row>
+    </Container>
+  );
+};
 
 export default ItemDetail;

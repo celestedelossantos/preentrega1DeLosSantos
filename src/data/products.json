@@ -3,7 +3,8 @@
         {
             "id":1,
             "title": "Rascador Premiun",
-            "description":"Excelente rascador, oportunidad unica con una excelente altura",
+            "description_short": "Increible rascador que tu michi amara por siempre",
+            "description":"Cuna, rascador y escondite de alta calidad \nMEDIDAS: Altura 40.5 cm Ancho 36.5 cm Largo 36 cm \nEscondite acogedor con dos entradas, para que tu gato no se sienta acorralado \nMadera de densidad media de alta calidad con acabado laminado de roble \nAyuda a proteger los muebles del hogar de las garras de tu gato\nCómodo cojín de espuma viscoelástica \nTe presentamos a Minou, nuestra elegante cuna, rascador y escondite, todo en uno. A tu gato le encantará echarse largas y relajantes siestas en su interior, y afilar sus garras en el exterior redondeado del sisal. \nEste adorable mueble lleva uno de los nombres de gato más populares del mundo, como un tributo a todos los amantes de gatos. \nAdorable y compacto \nGracias al diseño compacto y al acabado neutro laminado de roble, el Vesper Minou se adapta a todos los interiores.",
             "category": "Rascadores",
             "image": "https://http2.mlstatic.com/D_NQ_NP_2X_616925-MLA49698424653_042022-F.webp",
             "price": 2500
@@ -11,7 +12,8 @@
         {
             "id":2,
             "title": "Ropita de nenita",
-            "description":"hermosa ropita para tu gatita chiquita",
+            "description_short": "hermosa ropita para tu gatita chiquita",
+            "description":"",
             "category": "Michiropa",
             "image": "https://http2.mlstatic.com/D_NQ_NP_2X_619978-MLA47482187532_092021-F.webp",
             "price": 5000
@@ -19,7 +21,7 @@
         {
             "id":3,
             "title": "Juguete Raton",
-            "description":"Ratita para que tu gatito no pare de jugar",
+            "description_short":"Ratita para que tu gatito no pare de jugar",
             "category": "Michitoys",
             "image": "https://http2.mlstatic.com/D_NQ_NP_2X_776505-MLA41372733829_042020-F.webp",
             "price": 5000
@@ -27,7 +29,7 @@
         {
             "id":4,
             "title": "Comida Basic",
-            "description":"No parara de comer este alimento super balanceado",
+            "description_short":"No parara de comer este alimento super balanceado",
             "category": "Michialimentos",
             "image": "https://http2.mlstatic.com/D_NQ_NP_2X_729789-MLA49546651664_042022-F.webp",
             "price": 2500

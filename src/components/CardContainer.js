@@ -11,7 +11,7 @@ const CardContainer = ({ product }) => {
       <hr />
       <Card.Body>
         <Card.Title>{product.title}</Card.Title>
-        <Card.Text>{product.description}</Card.Text>
+        <Card.Text>{product.description_short}</Card.Text>
         <Link className="btn btn-primary" to={`/item/${product.id}`}>
           Detalle
         </Link>
