@@ -15,10 +15,10 @@ function Navbarprincipal() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Categories" id="basic-nav-dropdown">
-              <Link to='/category/Rascadores' className='dropdown-item' >Rascadores</Link>
-              <Link to='/category/Michiropa' className='dropdown-item' >Michiropa</Link>
-              <Link to='/category/Michitoys' className='dropdown-item' >Michitoys</Link>
-              <Link to='/category/Michialimentos' className='dropdown-item' >Michialimentos</Link>
+              <Link to='/category/rascadores' className='dropdown-item' >Rascadores</Link>
+              <Link to='/category/michiropa' className='dropdown-item' >Michiropa</Link>
+              <Link to='/category/michitoys' className='dropdown-item' >Michitoys</Link>
+              <Link to='/category/michialimentos' className='dropdown-item' >Michialimentos</Link>
             </NavDropdown>
             <Nav.Link href="#">
             </Nav.Link>

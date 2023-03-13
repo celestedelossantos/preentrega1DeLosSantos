@@ -6,6 +6,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer";
 import Cart from "./components/Cart";
 import CartProvider from "./context/cartContext";
 import Navbarprincipal from "./components/Layout/Navbar";
+import Success from "./components/Success";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/category/:id" element={<Category />} />
           <Route exact path="/item/:id" element={<ItemDetailContainer />} />
           <Route exact path="/cart" element={<Cart />} />
+          <Route exact path="/success" element={<Success />} />
         </Routes>
       </CartProvider>
     </BrowserRouter>
